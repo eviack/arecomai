@@ -76,7 +76,6 @@ easydict==1.10
 ecos==2.0.12
 editdistance==0.6.2
 eerepr==0.0.4
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0-py3-none-any.whl#sha256=83276fc78a70045627144786b52e1f2728ad5e29e5e43916ec37ea9c26a11212
 entrypoints==0.4
 ephem==4.1.4
 et-xmlfile==1.1.0
@@ -113,28 +112,6 @@ geopandas==0.13.2
 geopy==2.3.0
 gin-config==0.5.0
 glob2==0.7
-google==2.0.3
-google-api-core==2.11.1
-google-api-python-client==2.84.0
-google-auth==2.17.3
-google-auth-httplib2==0.1.0
-google-auth-oauthlib==1.0.0
-google-cloud-bigquery==3.10.0
-google-cloud-bigquery-connection==1.12.1
-google-cloud-bigquery-storage==2.22.0
-google-cloud-core==2.3.3
-google-cloud-datastore==2.15.2
-google-cloud-firestore==2.11.1
-google-cloud-functions==1.13.2
-google-cloud-language==2.9.1
-google-cloud-storage==2.8.0
-google-cloud-translate==3.11.3
-google-colab @ file:///colabtools/dist/google-colab-1.0.0.tar.gz#sha256=a772d2cf31799b32a13458a05aec05703bd0999858c3b3c2dfa7422a54d7080d
-google-crc32c==1.5.0
-google-pasta==0.2.0
-google-resumable-media==2.6.0
-googleapis-common-protos==1.60.0
-googledrivedownloader==0.4
 graphviz==0.20.1
 greenlet==2.0.2
 grpc-google-iam-v1==0.12.6
@@ -176,20 +153,6 @@ ipytree==0.2.2
 ipywidgets==7.7.1
 itsdangerous==2.1.2
 jax==0.4.14
-jaxlib @ https://storage.googleapis.com/jax-releases/cuda11/jaxlib-0.4.14+cuda11.cudnn86-cp310-cp310-manylinux2014_x86_64.whl#sha256=09c439923a785df517e3f470158dd3e46de454a01eca80935eed4ba383b5e90a
-jeepney==0.7.1
-jieba==0.42.1
-Jinja2==3.1.2
-joblib==1.3.2
-jsonpickle==3.0.2
-jsonschema==4.19.0
-jsonschema-specifications==2023.7.1
-jupyter-client==6.1.12
-jupyter-console==6.1.0
-jupyter-server==1.24.0
-jupyter_core==5.3.1
-jupyterlab-pygments==0.2.2
-jupyterlab-widgets==3.0.8
 kaggle==1.5.16
 keras==2.13.1
 keyring==23.5.0
@@ -411,12 +374,6 @@ tinycss2==1.2.1
 toml==0.10.2
 tomli==2.0.1
 toolz==0.12.0
-torch @ https://download.pytorch.org/whl/cu118/torch-2.0.1%2Bcu118-cp310-cp310-linux_x86_64.whl#sha256=a7a49d459bf4862f64f7bc1a68beccf8881c2fa9f3e0569608e16ba6f85ebf7b
-torchaudio @ https://download.pytorch.org/whl/cu118/torchaudio-2.0.2%2Bcu118-cp310-cp310-linux_x86_64.whl#sha256=26692645ea061a005c57ec581a2d0425210ac6ba9f923edf11cc9b0ef3a111e9
-torchdata==0.6.1
-torchsummary==1.5.1
-torchtext==0.15.2
-torchvision @ https://download.pytorch.org/whl/cu118/torchvision-0.15.2%2Bcu118-cp310-cp310-linux_x86_64.whl#sha256=19ca4ab5d6179bbe53cff79df1a855ee6533c2861ddc7389f68349d8b9f8302a
 tornado==6.3.2
 tqdm==4.66.1
 traitlets==5.7.1
