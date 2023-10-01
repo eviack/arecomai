@@ -29,7 +29,7 @@ st.markdown('''
 
 
 
-animes = pd.read_csv(r'F:\datasets(AI stuff)\arecomai\animes_cleaned.csv')
+animes = pd.read_csv('animes_cleaned.csv')
 
 def anime_recommend(title, cosine_sim, dataframe):
     indices = pd.Series(dataframe.index, index=dataframe['title'])
