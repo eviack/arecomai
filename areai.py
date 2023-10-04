@@ -45,7 +45,6 @@ def anime_recommend(title, cosine_sim, dataframe):
 
     return recomm[['title', 'tags', 'similarity', 'score', 'episodes', 'matched_with']]
 
-@st.cache_data
 def calculate_cosine_sim(dataframe):
     tfidf = TfidfVectorizer(stop_words='english', max_features = 5000)
     tfidf_matrix = tfidf.fit_transform(dataframe['tags'].values.astype('U'))
